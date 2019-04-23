@@ -1,2 +1,1 @@
-# homebrew-kube-compose
-Homebrew Tap
+# Kube-Compose - Homebrew Tap
