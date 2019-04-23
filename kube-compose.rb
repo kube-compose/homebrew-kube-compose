@@ -1,4 +1,4 @@
-class "Kube-Compose" < Formula
+class kubecompose < Formula
     desc "A command line tool to enable compose functionality on Kubernetes"
     homepage "https://github.com/kube-compose/kube-compose"
     url "https://github.com/jbrekelmans/kube-compose/releases/download/3.0.3/kube-compose.darwin.tar.gz"
