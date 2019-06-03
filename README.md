@@ -1,7 +1,10 @@
 # Kube-Compose - Homebrew Tap
-
-The download artifact must match the SHA sum within homebrew, to update the SHA sum within the homebrew tap run the following command:
-
+When bumping the version in `kube-compose.rb`, make sure to also update the checksum of the artifact. To calculate the checksum, use the following command:
+Linux:
 ```bash
 shasum -a 256 <file>
+```
+OSX:
+```bash
+openssl dgst -sha256 <file>
 ```
